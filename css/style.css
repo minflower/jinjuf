@@ -22,7 +22,7 @@ color: inherit;}
         position: relative; 
         top: 50px; left: 50px;
         }
-.popup>img{ width: 800px; height: 1050px; }
+.popup>img{ width: 600px; height: 750px; }
     .close{background-color: black; 
         color: #fff;
         font-weight: bold;
