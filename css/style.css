@@ -12,9 +12,24 @@ ul li{
 }
 a {text-decoration: none;
 color: inherit;}
-#wrap{
+    #pop1{display: none;}
+    .popup_bg{
+        background-color: rgba(0, 0, 0, 0.2); 
+        width: 100%; height: 100%;
+        position: fixed; top: 0;    }
 
-}
+    .popup{
+        position: relative; 
+        top: 50px; left: 50px;
+        }
+.popup>img{ width: 800px; height: 1050px;  
+        background-color: orange; }
+    .close{background-color: aliceblue; 
+        padding: 15px 30px;
+        position: absolute; 
+        top: 1110px; left: 750px;
+        }    
+    input[id="pop1"]:checked ~ .popup_bg{display: none;}
 .inner{
  max-width: 1200px;
  margin: 0 auto;
