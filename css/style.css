@@ -22,12 +22,14 @@ color: inherit;}
         position: relative; 
         top: 50px; left: 50px;
         }
-.popup>img{ width: 800px; height: 1050px;  
-        background-color: orange; }
-    .close{background-color: aliceblue; 
-        padding: 15px 30px;
+.popup>img{ width: 800px; height: 1050px; }
+    .close{background-color: black; 
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 15px 380px;
         position: absolute; 
-        top: 1110px; left: 750px;
+        top: 1100px; left: 50px;
         }    
     input[id="pop1"]:checked ~ .popup_bg{display: none;}
 .inner{
