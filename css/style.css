@@ -76,7 +76,7 @@ a:hover{ color: #eb660b;}
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     }
-    #and {color: #fff;}
+    #and {color: rgb(215, 215, 215);}
     #water {color: #84c4ec;}
     #fire {color: #0067b1;}
     #light {color: #eb660b;}
@@ -126,6 +126,31 @@ a:hover{ color: #eb660b;}
     background-color: #eb660b;
     color: #fff;
 }
+#festival_na{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+div #line2{
+    background-color: #80bce4;
+    position: relative;
+    bottom: 325px;
+    width: 320px; height: 10px;
+    z-index: 1;}
+#festival_img{
+    width: 60%; height: 500px;
+    background-image: url(../images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
 
 /*************slide2****************/
 .title {text-align: center; margin-top: 80px; margin-bottom: 80px;}
@@ -280,8 +305,8 @@ div #text1 {
 }
 div #hamo{
     position: absolute;
-    top: 330px ;
-    left: 630px;
+    top: 30px ;
+    left: 310px;
 }
 div #hamo img{    
     width: 150px;
@@ -290,8 +315,8 @@ div #hamo img{
 div #line{
     background-color: #17a68a;
     position: absolute;
-    bottom: 190px;
-    left:360px;
+    bottom: 130px;
+    left:10px;
     width: 260px; height: 10px;
     z-index: 1;
 } 
