@@ -97,7 +97,7 @@ a:hover{ color: #eb660b;}
     position: fixed;
     right: 5%;
     top: 150px;
-    z-index: 99;
+    z-index: 999;
     width: 60px;
     height: 800px;
     font-size: 26px;
@@ -348,19 +348,16 @@ div #line{
     width: 260px; height: 10px;
     z-index: 1;
 } 
-div .right_list img{
-    background-color:#0968aa;
+div .right_list{
     float: right;
     width: 55%;
-    height: 430px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
     position: relative;
-    bottom: 390px;
+    bottom: 400px;
   /*  background-image: url(../images/1.jpg);
-    background-size: cover; */
-   
+    background-size: cover; */   
 }
+
+
 div #t1 {
     font-size: 30px;
     font-weight: bold;

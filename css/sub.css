@@ -1,0 +1,236 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+     html{
+        font-size: 16px;
+     }
+body{font-family: 'Noto Sans KR', sans-serif;
+     }
+ul li{
+    list-style-type: none;
+}
+a {text-decoration: none;
+color: inherit;}
+    
+    input[id="pop1"]:checked ~ .popup_bg{display: none;}
+.inner{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+#wrap{overflow-x: hidden;}
+/******헤더******/
+div .back{ background-image: url(../images/yudeung.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    position: relative;
+}
+
+
+header .inner{
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    }
+
+/*header .inner ul{  display: flex; }
+header .inner li:last-child{padding-right: 0px;}
+header .inner li{padding-right: 70px; font-size: 20px;}*/
+#header .inner .gnb>li{
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+#header .inner .gnb>li>a {
+    font-size: 20px;
+    display: block;
+    padding: 25px 30px;
+}
+#header .inner .gnb .depth2 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 200px;
+    background:  rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+#header .inner .gnb .depth2 li a {
+    display: block;
+    font-size: 18px;
+    padding: 10px 0;
+}
+#header .inner .gnb>li:hover .depth2{ display: block;}
+
+
+div .inner img {
+    width: 150px; height: 75px;
+}
+a:hover{ color: #eb660b;}
+#quick {
+    font-family: 'SBAggroB';
+    text-align: center;
+    position: fixed;
+    right: 5%;
+    top: 150px;
+    z-index: 99;
+    width: 60px;
+    height: 800px;
+    font-size: 26px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    }
+    #and {color: rgb(215, 215, 215);}
+    #water {color: #84c4ec;}
+    #fire {color: #0067b1;}
+    #light {color: #eb660b;}
+    #heart {color: #00ae90;}
+    #img {width:40px; height: 40px;}
+    @font-face {
+        font-family: 'SBAggroB';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+/*************slide1****************/
+#slide1 {
+    height: 600px;
+    color : #fff;
+    text-align: center;   
+}
+#slide1 #px33 {
+    padding-top: 130px;
+    font-size: 33px;
+    font-weight: 300;
+}
+#slide1 #px52 {
+    font-size: 52px;
+    font-weight: bold
+}
+#slide1 #px28 {
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 60px;
+  
+}
+#view {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+   
+    }
+#box {
+    background-color: #fff;
+    padding: 15px 35px;
+    width: 200px; height: 45px;
+    border-radius: 25px;}
+
+#box:hover{
+    background-color: #eb660b;
+    color: #fff;
+}
+#festival_na{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+div #line2{
+    background-color: #80bce4;
+    position: relative;
+    bottom: 365px;
+    left: 17px;
+    width: 230px; height: 20px;
+    z-index: 1;}
+div #line3{
+        background-color: #74a86d;
+        position: relative;
+        bottom: 340px;
+        left: 795px;
+        width: 390px; height: 20px;
+        z-index: 1;}
+#festival_img{
+    width: 60%; height: 500px;
+    background-image: url(../images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+
+/*************slide2****************/
+
+  
+
+
+
+/*************slide3****************/
+
+div #t1 {
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 999;
+}
+div #t2 {
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    
+}
+div #t3 {
+    font-size: 18px;
+    font-weight: 100;
+}
+/*************footer****************/
+
+footer{
+    margin-top: 270px;
+    clear: both;
+    height: 200px;
+    background-color: #000;
+    color :#fff;
+    display: flex;   
+    align-items: center;
+}
+footer .inner {width: 100%;}
+footer .f_info {margin-bottom: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    header .top_btn{display: none;}
+    nav li{display: none;}
+    nav{position: relative;}
+    nav .nav_btn{position: absolute;
+    right: 0;
+    bottom: 12px;}
+    section img{width: 100%;}
+    
+}
