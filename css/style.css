@@ -40,8 +40,7 @@ color: inherit;}
 /******헤더******/
 div .back{ background-image: url(../images/yudeung.jpg); 
     background-repeat: no-repeat;
-    background-size: 100% 100% ;
-    position: relative;
+    background-size: 100% 100% ;    
 }
 
 
@@ -51,8 +50,7 @@ header .inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
-    position: relative;
+    color: #fff;   
     }
 
 /*header .inner ul{  display: flex; }
@@ -236,8 +234,13 @@ div #line2{
        
     } 
     #px470:hover{ 
-        border: solid 5px #eb660b;
-      /*  transform: translatex(10%);*/
+       /* border: solid 5px #eb660b;
+        transform: scale(1.5);
+        transform-origin: center;
+        
+        z-index: 999;
+
+        transform: translatex(10%);*/
         
     } 
   
@@ -301,7 +304,7 @@ div #line2{
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
         text-shadow: 2px 2px 1px #000;
-        
+        transition: 1s;
     }
     
   
@@ -352,7 +355,7 @@ div .right_list{
     float: right;
     width: 55%;
     position: relative;
-    bottom: 400px;
+    bottom: 350px;
   /*  background-image: url(../images/1.jpg);
     background-size: cover; */   
 }
@@ -375,6 +378,7 @@ div #t3 {
 /*************footer****************/
 
 footer{
+
     clear: both;
     height: 200px;
     background-color: #000;

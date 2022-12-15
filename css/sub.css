@@ -20,10 +20,8 @@ color: inherit;}
 }
 #wrap{overflow-x: hidden;}
 /******헤더******/
-div .back{ background-image: url(../images/yudeung.jpg); 
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
-    position: relative;
+ div .back{ 
+    position: relative; 
 }
 
 
@@ -40,6 +38,7 @@ header .inner{
 /*header .inner ul{  display: flex; }
 header .inner li:last-child{padding-right: 0px;}
 header .inner li{padding-right: 70px; font-size: 20px;}*/
+header{background-color: #000;}
 #header .inner .gnb>li{
     float: left;
     padding: 0 20px;
@@ -58,7 +57,7 @@ header .inner li{padding-right: 70px; font-size: 20px;}*/
     transform: translateX(-50%);
     text-align: center;
     width: 200px;
-    background:  rgba(0, 0, 0, 0.2);
+    background:  rgb(0, 0, 0);
     padding: 10px 0;
 }
 #header .inner .gnb .depth2 li a {
@@ -147,20 +146,30 @@ a:hover{ color: #eb660b;}
 div #line2{
     background-color: #80bce4;
     position: relative;
-    bottom: 365px;
-    left: 17px;
+    bottom: 385px;
+    left: 15px;
     width: 230px; height: 20px;
     z-index: 1;}
 div #line3{
         background-color: #74a86d;
         position: relative;
-        bottom: 340px;
-        left: 795px;
-        width: 390px; height: 20px;
+        bottom: 405px;
+        left: 670px;
+        width: 510px; height: 20px;
         z-index: 1;}
 #festival_img{
-    width: 60%; height: 500px;
-    background-image: url(../images/5.jpg);
+    width: 50%; height: 500px;
+    background-image: url(../images/aa.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#festival_img2{
+    width: 50%; height: 500px;
+    background-image: url(../images/ab.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -177,11 +186,12 @@ div #line3{
 
 
 /*************slide3****************/
+div #t1 text{z-index: 999;}
 
 div #t1 {
     font-size: 30px;
     font-weight: bold;
-    z-index: 999;
+    
 }
 div #t2 {
     font-size: 20px;

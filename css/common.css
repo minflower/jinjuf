@@ -43,7 +43,7 @@ button {
 #section1 .main_slide_3 .back {
   /* width: 100%; */
   background-image: url(../images/3.jpg);
-  background-size: cover;;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   border-top-left-radius: 30px;
