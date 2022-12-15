@@ -19,7 +19,7 @@ button {
 /*************************** section1 ***************************/
 #section1{
   /* overflow: hidden; */
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 #section1 .main_slide_1 .back {

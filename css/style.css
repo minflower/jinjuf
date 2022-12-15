@@ -378,6 +378,7 @@ footer{
     color :#fff;
     display: flex;   
     align-items: center;
+    margin-top: 380px;
 }
 footer .inner {width: 100%;}
 footer .f_info {margin-bottom: 20px;}
