@@ -191,13 +191,10 @@ div #t1 text{z-index: 999;}
 div #t1 {
     font-size: 30px;
     font-weight: bold;
-    
 }
 div #t2 {
     font-size: 20px;
     font-weight: 300;
-    position: relative;
-    
 }
 div #t3 {
     font-size: 18px;

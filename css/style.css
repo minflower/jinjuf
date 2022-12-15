@@ -188,9 +188,6 @@ div #line2{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    
-    
 }
 #slide2 .slide_left{
     color: #fff ;
@@ -314,9 +311,7 @@ div #line2{
 /*************slide3****************/
 #slide3 {
     height: 410px;
-    position: relative;
 }
-section #re{position: relative;}
 div .left_txt {
     background-color: #0968aa;
     float: left;
@@ -324,7 +319,6 @@ div .left_txt {
     height: 480px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    position: relative;
 }
 div .event{
     position: relative;
@@ -378,7 +372,6 @@ div #t3 {
 /*************footer****************/
 
 footer{
-
     clear: both;
     height: 200px;
     background-color: #000;
