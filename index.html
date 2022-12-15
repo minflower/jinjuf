@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head></head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=deivice-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/slider.js"></script>
 
 <link href="https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/ROEHOE-CHAN.woff" rel="stylesheet">
 <title>유등축제_김종민</title>
@@ -25,7 +26,7 @@
                     <li>
                         <a href="#">축제소개</a>
                         <ul class="depth2">
-                            <li><a href="#">진주유등의 유래</li></a>
+                            <li><a href="#">유등의 유래</li></a>
                             <li><a href="#">인사말</li></a>
                             <li><a href="#">CI</li></a>
                         </ul>
@@ -135,9 +136,11 @@
                 <div class="left_txt"></div>
                 <div class="right_list">
                     
-                    <ul>
-                        <li>&nbsp;</li>                       
+                    <ul class="slide">
+                        <li><img src="./images/1.jpg"></li>                       
                     </ul>
+                    
+                    
                 </div>
             </section>
 
@@ -178,6 +181,12 @@
         <input type="checkbox" id="pop1">
         <div class="popup_bg">
              <div class="popup"><img src="./images/pop.jpg" alt="팝업"></div>
+             
+             <label class="close" for="pop1">close</label>
+        </div>
+        <input type="checkbox" id="pop1">
+        <div class="popup_bg">
+             <div class="popup">이 사이트는 가로 1600px에 해상도에 최적화하여 제작되었습니다. </div>
              
              <label class="close" for="pop1">close</label>
         </div>

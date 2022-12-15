@@ -165,7 +165,7 @@ a:hover{ color: #eb660b;}
 div #line2{
     background-color: #80bce4;
     position: relative;
-    bottom: 325px;
+    bottom: 330px;
     width: 320px; height: 10px;
     z-index: 1;}
 #festival_img{
@@ -348,7 +348,7 @@ div #line{
     width: 260px; height: 10px;
     z-index: 1;
 } 
-div .right_list {
+div .right_list img{
     background-color:#0968aa;
     float: right;
     width: 55%;
@@ -357,8 +357,8 @@ div .right_list {
     border-bottom-left-radius: 30px;
     position: relative;
     bottom: 390px;
-    background-image: url(../images/1.jpg);
-    background-size: cover;
+  /*  background-image: url(../images/1.jpg);
+    background-size: cover; */
    
 }
 div #t1 {
