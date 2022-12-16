@@ -135,81 +135,24 @@ a:hover{ color: #eb660b;}
     background-color: #eb660b;
     color: #fff;
 }
-#festival_na{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 150px;
-    position: relative;
-}
-div #line2{
-    background-color: #80bce4;
-    position: relative;
-    bottom: 450px;
-    left: 175px;
-    width: 350px; height: 5px;
-    z-index: 1;}
-div #line3{
-        background-color: #17a68a;
-        position: relative;
-        bottom: 463px;
-        left: 830px;
-        width: 350px; height: 5px;
-        z-index: 1;}
-#festival_img{
-    width: 50%; height: 500px;
-    background-image: url(../images/aa.gif);
+#img2 {
+    width: 700px ; height: 1500px;
+    margin: 0 auto;
+    background-image: url(../images/12.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    border-radius: 10px;
-}
-#festival_img2{
-    width: 50%; height: 500px;
-    background-image: url(../images/ab.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    border-radius: 10px;
-}
-#hamo2 img{
-    width: 270px; height: 320px;
-    position: absolute;
-    bottom: -150px;
-    right: -170px;
+    margin-top: 50px;
+
 }
 
-/*************slide2****************/
-
-  
-
-
-
-/*************slide3****************/
-div #t1 text{z-index: 999;}
-
-div #t1 {
-    font-size: 30px;
-    font-weight: bold;
+.title{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 70px;
 }
-div #t2 {
-    font-size: 20px;
-    font-weight: 300;
-}
-div #t3 {
-    font-size: 18px;
-    font-weight: 100;
-}
-/*************footer****************/
 
 footer{
-    margin-top: 270px;
+    margin-top: 70px;
     clear: both;
     height: 200px;
     background-color: #000;
@@ -221,29 +164,3 @@ footer .inner {width: 100%;}
 footer .f_info {margin-bottom: 20px;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1024px){
-    header .top_btn{display: none;}
-    nav li{display: none;}
-    nav{position: relative;}
-    nav .nav_btn{position: absolute;
-    right: 0;
-    bottom: 12px;}
-    section img{width: 100%;}
-    
-}
