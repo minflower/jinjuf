@@ -155,7 +155,7 @@ div #line3{
         background-color: #17a68a;
         position: relative;
         bottom: 463px;
-        left: 830px;
+        left: 815px;
         width: 350px; height: 5px;
         z-index: 1;}
 #festival_img{
@@ -181,8 +181,8 @@ div #line3{
 #hamo2 img{
     width: 270px; height: 320px;
     position: absolute;
-    bottom: -150px;
-    right: -170px;
+    bottom: 530px;
+    right: -100px;
 }
 
 /*************slide2****************/
@@ -209,7 +209,7 @@ div #t3 {
 /*************footer****************/
 
 footer{
-    margin-top: 270px;
+    margin-top: 170px;
     clear: both;
     height: 200px;
     background-color: #000;
